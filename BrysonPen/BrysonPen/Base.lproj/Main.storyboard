@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,17 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="246" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2015-08-19 at 8.22.16 PM" translatesAutoresizingMaskIntoConstraints="NO" id="LRE-n4-ej7">
-                                <rect key="frame" x="150" y="316" width="300" height="198"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="246" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2015-08-19 at 8.22.16 PM" translatesAutoresizingMaskIntoConstraints="NO" id="LRE-n4-ej7">
+                                <rect key="frame" x="-7" y="0.0" width="607" height="600"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BonJour Jared" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSk-Ga-11T">
-                                <rect key="frame" x="159" y="28" width="301" height="343"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BonJour Jared" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSk-Ga-11T">
+                                <rect key="frame" x="159" y="28" width="301" height="274"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.45844469572368424" green="0.46330180921052633" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="LRE-n4-ej7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="296" id="ORs-fd-X39"/>
+                            <constraint firstItem="rSk-Ga-11T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="140" id="OpN-vt-bNm"/>
+                            <constraint firstItem="LRE-n4-ej7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="130" id="VAv-Hq-e4w"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LRE-n4-ej7" secondAttribute="bottom" constant="86" id="Vtm-tX-FGl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LRE-n4-ej7" secondAttribute="trailing" constant="130" id="W7j-ts-ko2"/>
+                            <constraint firstItem="rSk-Ga-11T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ZvD-KR-rsd"/>
+                            <constraint firstItem="LRE-n4-ej7" firstAttribute="top" secondItem="rSk-Ga-11T" secondAttribute="bottom" constant="14" id="y1h-pz-QiV"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="BJlabel" destination="rSk-Ga-11T" id="NJL-x1-Bmu"/>
