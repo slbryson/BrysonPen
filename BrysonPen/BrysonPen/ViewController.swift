@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func showMe(sender: AnyObject) {
+    }
+    @IBOutlet weak var textToSendField: UITextField!
     @IBOutlet weak var BJlabel: UILabel!
 
     override func viewDidLoad() {

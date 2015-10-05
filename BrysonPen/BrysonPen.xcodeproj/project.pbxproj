@@ -15,6 +15,7 @@
 		0A92DC911BC21DFF00042926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A92DC8F1BC21DFF00042926 /* LaunchScreen.storyboard */; };
 		0A92DC9C1BC21DFF00042926 /* BrysonPenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A92DC9B1BC21DFF00042926 /* BrysonPenTests.swift */; };
 		0A92DCA71BC21DFF00042926 /* BrysonPenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A92DCA61BC21DFF00042926 /* BrysonPenUITests.swift */; };
+		0A92DCB51BC233A300042926 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A92DCB41BC233A300042926 /* MessageViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0A92DCA21BC21DFF00042926 /* BrysonPenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrysonPenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A92DCA61BC21DFF00042926 /* BrysonPenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrysonPenUITests.swift; sourceTree = "<group>"; };
 		0A92DCA81BC21DFF00042926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A92DCB41BC233A300042926 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0A92DC831BC21DFE00042926 /* AppDelegate.swift */,
 				0A92DC851BC21DFE00042926 /* ViewController.swift */,
 				0A92DC871BC21DFE00042926 /* Main.storyboard */,
+				0A92DCB41BC233A300042926 /* MessageViewController.swift */,
 				0A92DC8D1BC21DFF00042926 /* Assets.xcassets */,
 				0A92DC8F1BC21DFF00042926 /* LaunchScreen.storyboard */,
 				0A92DC921BC21DFF00042926 /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				0A92DC861BC21DFE00042926 /* ViewController.swift in Sources */,
 				0A92DC8C1BC21DFE00042926 /* BrysonPen.xcdatamodeld in Sources */,
+				0A92DCB51BC233A300042926 /* MessageViewController.swift in Sources */,
 				0A92DC841BC21DFE00042926 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
